@@ -1,0 +1,177 @@
+@font-face{
+	font-family: inglobal;
+	font-style:normal;
+	src:url(../fonts/inglobal.ttf)
+}
+
+@font-face{
+	font-family: inglobalb;
+	font-style:bold;
+	src:url(../fonts/inglobalb.ttf)
+}
+
+h1 {
+	font-family:"inglobalb";
+	color:#26323b;
+	text-align:center;
+}
+
+h2, h3 {
+	font-weight: normal;
+	font-family:"inglobal";	
+/*	text-align: center;*/
+	vertical-align:middle;
+}
+
+h6 {
+	font-style:normal;
+	color:silver;	
+}
+
+body {
+	background-color:#FEE3CA
+}
+
+.upper {
+	background-color:#ce354e;
+	height:16px;
+	margin-bottom: 15px;
+}
+
+.HEAD_DIV {
+	width:800px;
+	height:100px;
+}
+
+.logo {
+	float:left;
+	width:360px;
+	height: 100px;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.cart {
+	float:right;
+	padding: 5px;
+	background-color: #facd75;
+	width: 160px;
+	height: 70px;
+	font-family:"inglobal";
+	font-size:16;
+	cursor: pointer;
+}
+
+.cart img{
+	float: left;
+	margin-right: 10px;
+}
+
+header {
+	width:800px;
+	background-color: white;
+	position:absolute;
+	left:50%;
+	margin:0px -400px;
+	display:block;
+}
+
+header li {
+	list-style-type:none;
+	display:inline
+}
+
+header ul {
+	background-color:#ce354e;
+	padding: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.punct {
+	background-color:#ce354e;
+	text-align:center;
+	padding:10px 25px;
+	border:0px;
+	height:40px;
+	color:white;
+	text-decoration:none;
+	font-family:"inglobal";
+	font-size:16;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.punct:hover {
+	background-color:#facd75;	
+}
+
+.punct.active {
+	background-color:#facd75;
+	color: black;
+}
+
+.punct:focus {
+	border: 0px;
+}
+
+
+
+#main {
+	width:760px;
+	position:absolute;
+	left:50%;
+	top:195px;
+	margin:0px -400px;
+	background-color:white;
+	padding:20px;
+	display:block;
+}	
+
+.title{
+	background-color: #facd75;
+	/*margin-top: 30px;*/
+	padding:0px 5px;
+	height:30px;
+}
+
+
+.doll{
+	width:220px;
+	margin:20px 15px;
+	text-align: center;
+	font-family:"inglobal";
+	font-size:18;
+	float:left;
+	cursor: pointer;
+}
+
+.doll img{
+	width:200px;
+}
+
+.desc img{
+	width:350px;
+	float:left;
+	margin-right: 20px;
+}
+
+.desc span{
+	font-family:"inglobal";
+	font-size:16;	
+}
+
+#cartButton{
+	display:block;
+	margin-top: 30px;
+	background-color:#facd75;
+	text-align:center;
+	padding:10px 15px;
+	border:0px;
+	text-decoration:none;
+	font-family:"inglobal";
+	font-size:14;
+	text-transform: uppercase;
+	cursor: pointer;
+
+}
